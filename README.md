@@ -107,8 +107,22 @@ const response = await signer?.sign({
 
 ## Supported Chains
 
-- BTC: PSBT format only
-- ETH: Standard transaction format
+### Currently Supported
+
+- [x] **BTC**: PSBT format only
+- [x] **ETH**: Standard transaction format
+
+### Planned Support
+
+- [ ] **TRON (TRX)**
+- [ ] **Solana (SOL)**
+- [ ] **BNB Chain (BNB)**
+- [ ] **Polygon (MATIC)**
+- [ ] **Avalanche (AVAX)**
+- [ ] **Cardano (ADA)**
+- [ ] **Polkadot (DOT)**
+
+The architecture is designed to be extensible, allowing easy addition of new chain support in future iterations.
 
 ## API
 

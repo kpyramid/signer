@@ -107,8 +107,22 @@ const response = await signer?.sign({
 
 ## 支持的链
 
-- BTC: 仅支持 PSBT 格式
-- ETH: 标准交易格式
+### 当前支持
+
+- [x] **BTC**: 仅支持 PSBT 格式
+- [x] **ETH**: 标准交易格式
+
+### 计划支持
+
+- [ ] **TRON (TRX)**
+- [ ] **Solana (SOL)**
+- [ ] **BNB Chain (BNB)**
+- [ ] **Polygon (MATIC)**
+- [ ] **Avalanche (AVAX)**
+- [ ] **Cardano (ADA)**
+- [ ] **Polkadot (DOT)**
+
+架构设计支持扩展，后续可以任意扩展新的链支持。
 
 ## API
 
