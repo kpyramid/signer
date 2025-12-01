@@ -1,5 +1,7 @@
 # Universal Digital Asset Signer
 
+[中文](README.zh.md) | English
+
 A protocol library for signing digital asset transactions. Supports multiple signing mechanisms including direct private key signing, HSM (AWS KMS), and MPC (Fireblocks).
 
 **Note**: The current version focuses on architectural design and generic implementation. Usability integration tests have not been performed yet and will be completed in future iterations.
